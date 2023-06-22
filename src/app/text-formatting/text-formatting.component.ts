@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-text-formatting',
+  templateUrl: './text-formatting.component.html',
+  styleUrls: ['./text-formatting.component.css']
 })
-export class AppComponent {
+export class TextFormattingComponent {
   text: string = '';
   textStyle: any = {};
 

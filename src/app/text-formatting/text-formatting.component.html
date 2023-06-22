@@ -1,0 +1,9 @@
+<div>
+  <input type="text" [(ngModel)]="text" [ngStyle]="textStyle" (ngModelChange)="text = $event">
+</div>
+
+<div>
+  <button (click)="toggleBold()">Bold</button>
+  <button (click)="toggleItalic()">Italic</button>
+  <button (click)="toggleUnderline()">Underline</button>
+</div>
